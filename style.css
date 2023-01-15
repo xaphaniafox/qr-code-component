@@ -1,0 +1,45 @@
+@font-face {
+  font-family: outfitfont;
+  src: url(./Outfit-VariableFont_wght.ttf);
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: outfitfont;
+  background-color: hsl(213, 16%, 86%);
+  text-align: center;
+}
+
+.container {
+  width: 100vw;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.contents {
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px;
+  width: 250px;
+}
+
+img {
+  width: 15em;
+  border-radius: 15px;
+}
+
+h6 {
+  font-size: 1.2rem;
+  color:darkslategrey;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: gray;
+  font-size: .8rem;
+  padding: 20px;
+  padding-top: 0px;
+}
